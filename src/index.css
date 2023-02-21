@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card_design{
+    margin-top: 30px;
+    padding:5px;
+    margin-right: 11px;
+    margin-left: 5px;
+    font-size: larger;
+    
 }
+  .card img{
+    align-self: center;
+    width:100%;
+    height:35%;
+    margin-bottom: 2px;
+    
+  }
+  
+  .navsize{
+    padding-bottom: 2px;
+    width: 100%;
+    padding-top: 2px;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .horizontal1{
+    list-style-type: none; 
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+  }
+  
+  .searchstyle{
+    margin-top: 9px;
+    display: flex;
+  }
+
+  .apply{
+    background-color: orangered;
+    color: white;  
+    width: 50%;
+    border: 1px solid #b1b3b1;
+  }
+  .bro{
+    background-color: white;
+    color: orangered;  
+    width: 50%;
+    border: 1px solid #b1b3b1;
+  }
+  .buttondesign{
+    display: flex;
+  }
+
+  .lowertext{
+    font-size: smaller;
+    background-color: #f2f0f0;
+    color: #9e9b9b;
+    height: 38px;
+    padding-top: 6px;
+  }
+  .middletext{
+    font-size: smaller;
+    color: #9e9b9b;
+    height: 48px;
+    display: flex;
+    text-align: center;
+  }
+
+  .centertext{
+    font-size: smaller;
+    color: #9e9b9b;
+    height: 55px;
+    display: flex;
+    text-align: center;
+  }
+
+  .uppertext{
+    font-size: larger;
+    color: #9e9b9b;
+    text-align: center;
+  }
+
+
+  
